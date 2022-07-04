@@ -1,0 +1,96 @@
+body{
+   font-family: 'Roboto', sans-serif;
+   margin: 0;
+}
+h1{
+   font-size: 50px;
+}
+p{
+   font-size: 18px;
+}
+.flexible{
+   margin-bottom: 150px;
+}
+.top-banner{
+   display: flex;
+}
+.orange-color{
+   color: orange;
+}
+.half-width{
+   width: 40%;
+   padding-left: 15%;
+}
+.half-width h1{
+   font-size: 50px;
+   margin-top: 200px;
+}
+.half-width p{
+   font-size: 18px;
+   margin-bottom: 50px;
+}
+.half-width img{
+   width: 100%;
+ }
+.half-width:nth-child(2){
+   padding-left: 0%;
+}
+.order-button{
+   text-decoration: none;
+   padding: 15px 20px;
+   background-image: linear-gradient(orange, tomato);
+   border-radius: 25px;
+}
+.about-container{
+   display: flex;
+}
+.about-half{
+   width: 40%;
+   padding-left: 5%;
+}
+.about-container{
+   background-image: url(/images/shapes/7.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.about-half p{
+   margin-bottom: 100px;
+   width: 300px;
+}
+.recip-container{
+   text-align: center;
+   color: rgb(129, 123, 123);
+   margin-bottom: 80px;
+}
+
+.recip-container p{
+   width: 600px;
+   text-align: justify;
+   margin: auto
+}
+.recip-title{
+display: flex;
+
+}
+.recip-title-half{
+width: 40%;
+padding: 20px;
+margin-left: 5%;
+border-radius: 25px;
+box-shadow: 10px 10px 40px gray;
+   
+}
+.recip-title-half img{
+   width: 100%;
+   height: 400px;
+}
+.price-container{
+   width: 80%;
+   margin: 0 auto;
+   box-shadow: 2px 5px 50px;
+   border-radius: 15px;
+   display: flex;
+   justify-content: space-around;
+   text-align: center;
+   margin-bottom: 50px;
+}
