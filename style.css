@@ -48,11 +48,10 @@ p{
 }
 .about-container{
    display: flex;
-   background-image: url(images/shapes/Frame\ 57.jpg);
+   background-image: url(images/shapes/Frame 57.jpg);
    background-repeat: no-repeat;
    background-size: cover;
    width: 100%;
-   overflow: hidden;
 }
 .about-half p{
    margin-bottom: 100px;
